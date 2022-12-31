@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+body {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-family: "Roboto", sans-serif;
+  background-color: #0e131a;
+  color: #e2e1e1;
+}
+
+.container {
+  background-color: #272d35;
+  border-radius: 20px;
+}
+
+.badge {
+  background-image: -webkit-gradient(linear, left top, right top, from(#6f4ca4), to(#b9acfe));
+  background-image: linear-gradient(to right, #6f4ca4, #b9acfe);
+}
+
+.navbar {
+  /*    background-color:$navbar-dark; */
+  background: #0e131a;
+}
+.navbar .barra-nav {
+  height: 3.5rem;
+}
+.navbar .navbar-brand {
+  color: #e2e1e1;
+}
+
+#dashboard {
+  min-height: 90vh;
+}
+
+.stock-dark {
+  border-color: #292d31;
+  background-color: #212529;
+  color: white;
+}
+.stock-dark :hover {
+  background-color: #292d31;
+  color: white;
+}
+
+.boton-dark {
+  border-color: #6f4ca4;
+  background-color: #6f4ca4;
+  color: white;
+}
+.boton-dark:hover {
+  background-color: #7c5ea8;
+  border-color: #6f4ca4;
+  color: white;
+}
+
+.dark-mode {
+  background-color: #272d35;
+  color: #e2e1e1;
+}

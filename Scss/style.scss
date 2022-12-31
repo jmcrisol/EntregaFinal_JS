@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+$bk-dark: #0e131a;
+$cont-dark: #272d35;
+$navbar-dark: #1c1b1b;
+$vavbar-grad: linear-gradient(to right, #6e56e2, #501999);
+$font-dark: #e2e1e1;
+$card-dark: linear-gradient(145deg, #34868E, #25CDE0);
+$stock-dark: #212529;
+$radius: 20px;
+$badge: linear-gradient(to right, #6f4ca4, #b9acfe);
+
+
+body {
+    user-select: none;
+    font-family: 'Roboto', sans-serif;
+    background-color: $bk-dark;
+    color:$font-dark;
+}
+
+.container {
+    background-color: $cont-dark;
+    border-radius: $radius;
+}
+
+.badge{
+    background-image: $badge;
+}
+
+
+.navbar {
+ /*    background-color:$navbar-dark; */
+    background: $bk-dark;
+    .barra-nav {
+        height: 3.5rem;
+    }
+
+    .navbar-brand {
+        color: $font-dark;
+    }
+}
+
+
+
+#dashboard {
+    min-height: 90vh;
+}
+
+.stock-dark {
+    border-color: #292d31;
+    background-color: $stock-dark;
+    color: white;
+    & :hover {
+    background-color: #292d31;
+    color: white;
+    }
+}
+
+.boton-dark{
+    border-color: #6f4ca4;
+    background-color: #6f4ca4;
+    color: white;
+    &:hover {
+        background-color: #7c5ea8;
+        border-color: #6f4ca4;
+        color: white;
+    }
+}
+
+.dark-mode {
+    background-color: $cont-dark;
+    color: $font-dark;
+    
+
+}

@@ -1,0 +1,35 @@
+[
+    {
+        "nombre" : "PORTACHUPETE",
+        "precio" : "500",
+        "disponible" : "5"
+    },
+    {
+        "nombre" : "BABERO",
+        "precio" : "400",
+        "disponible" : "6"
+    },
+    {
+        "nombre" : "PORTALIBRETA ROSA",
+        "precio" : "700",
+        "disponible" : "3"
+    },{
+        "nombre" : "PORTALIBRETA GRIS",
+        "precio" : "700",
+        "disponible" : "2"
+    },{
+        "nombre" : "PORTALIBRETA AMARILLO",
+        "precio" : "700",
+        "disponible" : "1"
+    },{
+        "nombre" : "PORTALIBRETA VERDE",
+        "precio" : "700",
+        "disponible" : "4"
+    },{
+        "nombre" : "PORTALIBRETA CELESTE",
+        "precio" : "700",
+        "disponible" : "1"
+    }
+
+]
+
